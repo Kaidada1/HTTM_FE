@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@paypal/react-paypal-js": "^8.3.0",
     "@reduxjs/toolkit": "^1.8.6",
     "@tanstack/react-query": "^4.17.1",
     "@tanstack/react-query-devtools": "^4.17.1",
@@ -60,8 +61,12 @@
     ".localhost"
   ],
   "options": {
-    "allowedHosts": ["localhost", ".localhost"],
-    "proxy": "https://localhost:3386/"},
+    "allowedHosts": [
+      "localhost",
+      ".localhost"
+    ],
+    "proxy": "https://localhost:3386/"
+  },
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.23.4"
   }

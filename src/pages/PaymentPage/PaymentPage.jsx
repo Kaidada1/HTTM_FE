@@ -16,7 +16,7 @@ import * as message from '../../components/Message/Message'
 import { updateUser } from '../../redux/slides/userSlide';
 import { useNavigate } from 'react-router-dom';
 import { removeAllOrderProduct } from '../../redux/slides/orderSlide';
-import { PayPalButton } from "react-paypal-button-v3";
+import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import * as PaymentService from '../../services/PaymentService';
 import ZaloPayLogo from '../../assets/images/ZaloPay.png'
 
