@@ -19,7 +19,7 @@
     "react-dom": "^18.2.0",
     "react-google-recaptcha": "^3.1.0",
     "react-paginate": "^8.2.0",
-    "react-paypal-button-v2": "^2.6.3",
+    "react-paypal-button-v3": "^3.0.2",
     "react-redux": "^8.0.4",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
@@ -59,7 +59,9 @@
     "localhost",
     ".localhost"
   ],
-  "proxy": "http://localhost:3001",
+  "options": {
+    "allowedHosts": ["localhost", ".localhost"],
+    "proxy": "https://localhost:3386/"},
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.23.4"
   }
